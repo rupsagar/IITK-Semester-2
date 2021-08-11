@@ -1,0 +1,20 @@
+1. The files with name ScriptStatic#.m are run for the different cases.
+
+2. ScriptStatic1.m is for a cantilever model with load-controlled analysis
+ScriptStatic1.tcl is the corresponding OS file that automatically runs.
+
+3. ScriptStatic2.m is for a cantilever model with disp-controlled analysis with a disp history.
+ScriptStatic2.tcl is the OS file that runs automatically.
+
+4. ScriptStatic3.m is for one storey portal frame with load controlled analysis under a load history
+There is no tcl file for this since I could not implement the load controlled method in OS
+
+5. ScriptStatic4.m is for one storey portal frame with disp controlled analysis under a disp history
+ScriptStatic4.tcl is the OS file that runs automatically.
+
+6. The folder OSResults is generated automatically with all the OS results.
+
+7. Isotropic hardening of Menegotto-Pinto model is added into MatGMP.m function. The default values are set as [0,1,0,1]
+
+8. ScriptStatic5.m shows the example of a cantilever model with isotropic hardening under a given displacement history.
+ScriptStatic5.tcl is the corresponding OS file that is read automatically.
